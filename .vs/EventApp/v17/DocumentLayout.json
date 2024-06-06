@@ -1,0 +1,604 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Works\\Learn_Repos\\EventApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|d:\\works\\learn_repos\\eventapp\\eventapp\\views\\user\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|solutionrelative:eventapp\\views\\user\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|d:\\works\\learn_repos\\eventapp\\eventapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|solutionrelative:eventapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|d:\\works\\learn_repos\\eventapp\\eventapp\\controllers\\organizercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|solutionrelative:eventapp\\controllers\\organizercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|d:\\works\\learn_repos\\eventapp\\eventapp\\models\\organizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|solutionrelative:eventapp\\models\\organizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|d:\\works\\learn_repos\\eventapp\\eventapp\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|solutionrelative:eventapp\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|d:\\works\\learn_repos\\eventapp\\eventapp\\views\\user\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|solutionrelative:eventapp\\views\\user\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|d:\\works\\learn_repos\\eventapp\\eventapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|solutionrelative:eventapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|d:\\works\\learn_repos\\eventapp\\eventapp\\views\\sport\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|solutionrelative:eventapp\\views\\sport\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|d:\\works\\learn_repos\\eventapp\\eventapp\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|solutionrelative:eventapp\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|d:\\works\\learn_repos\\eventapp\\eventapp\\views\\user\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|solutionrelative:eventapp\\views\\user\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|d:\\works\\learn_repos\\eventapp\\eventapp\\views\\sport\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|solutionrelative:eventapp\\views\\sport\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|d:\\works\\learn_repos\\eventapp\\eventapp\\views\\organizer\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|solutionrelative:eventapp\\views\\organizer\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|d:\\works\\learn_repos\\eventapp\\eventapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|solutionrelative:eventapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|d:\\works\\learn_repos\\eventapp\\eventapp\\controllers\\sportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|solutionrelative:eventapp\\controllers\\sportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|d:\\works\\learn_repos\\eventapp\\eventapp\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|solutionrelative:eventapp\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|d:\\works\\learn_repos\\eventapp\\eventapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|solutionrelative:eventapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|d:\\works\\learn_repos\\eventapp\\eventapp\\views\\sport\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|solutionrelative:eventapp\\views\\sport\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|d:\\works\\learn_repos\\eventapp\\eventapp\\views\\sport\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|solutionrelative:eventapp\\views\\sport\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|d:\\works\\learn_repos\\eventapp\\eventapp\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|solutionrelative:eventapp\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|d:\\works\\learn_repos\\eventapp\\eventapp\\views\\sport\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|solutionrelative:eventapp\\views\\sport\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|d:\\works\\learn_repos\\eventapp\\eventapp\\views\\organizer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|solutionrelative:eventapp\\views\\organizer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|d:\\works\\learn_repos\\eventapp\\eventapp\\models\\indexeventviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|solutionrelative:eventapp\\models\\indexeventviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|d:\\works\\learn_repos\\eventapp\\eventapp\\models\\indexorganizerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|solutionrelative:eventapp\\models\\indexorganizerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|d:\\works\\learn_repos\\eventapp\\eventapp\\views\\organizer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|solutionrelative:eventapp\\views\\organizer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|d:\\works\\learn_repos\\eventapp\\eventapp\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|solutionrelative:eventapp\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|d:\\works\\learn_repos\\eventapp\\eventapp\\models\\createorganizerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|solutionrelative:eventapp\\models\\createorganizerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|d:\\works\\learn_repos\\eventapp\\eventapp\\models\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|solutionrelative:eventapp\\models\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|d:\\works\\learn_repos\\eventapp\\eventapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|solutionrelative:eventapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|d:\\works\\learn_repos\\eventapp\\eventapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|solutionrelative:eventapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|d:\\works\\learn_repos\\eventapp\\eventapp\\mycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|solutionrelative:eventapp\\mycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|d:\\works\\learn_repos\\eventapp\\eventapp\\models\\errors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|solutionrelative:eventapp\\models\\errors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|d:\\works\\learn_repos\\eventapp\\eventapp\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|solutionrelative:eventapp\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|d:\\works\\learn_repos\\eventapp\\eventapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|solutionrelative:eventapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|d:\\works\\learn_repos\\eventapp\\eventapp\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|solutionrelative:eventapp\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|d:\\works\\learn_repos\\eventapp\\eventapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{81641348-F211-42BB-A333-35432DBCE57F}|EventApp\\EventApp.csproj|solutionrelative:eventapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Views\\User\\Delete.cshtml",
+              "RelativeDocumentMoniker": "EventApp\\Views\\User\\Delete.cshtml",
+              "ToolTip": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Views\\User\\Delete.cshtml",
+              "RelativeToolTip": "EventApp\\Views\\User\\Delete.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T00:45:07.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Views\\User\\Update.cshtml",
+              "RelativeDocumentMoniker": "EventApp\\Views\\User\\Update.cshtml",
+              "ToolTip": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Views\\User\\Update.cshtml",
+              "RelativeToolTip": "EventApp\\Views\\User\\Update.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAABAAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T00:02:06.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "EventApp\\Views\\User\\Index.cshtml",
+              "ToolTip": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "EventApp\\Views\\User\\Index.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T23:58:54.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Views\\Sport\\Create.cshtml",
+              "RelativeDocumentMoniker": "EventApp\\Views\\Sport\\Create.cshtml",
+              "ToolTip": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Views\\Sport\\Create.cshtml",
+              "RelativeToolTip": "EventApp\\Views\\Sport\\Create.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T23:13:46.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "EventApp\\Models\\User.cs",
+              "ToolTip": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Models\\User.cs",
+              "RelativeToolTip": "EventApp\\Models\\User.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAwwA4AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T11:58:58.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrganizerController.cs",
+              "DocumentMoniker": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Controllers\\OrganizerController.cs",
+              "RelativeDocumentMoniker": "EventApp\\Controllers\\OrganizerController.cs",
+              "ToolTip": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Controllers\\OrganizerController.cs",
+              "RelativeToolTip": "EventApp\\Controllers\\OrganizerController.cs",
+              "ViewState": "AQIAAI8AAAAAAAAAAAAuwJwAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T11:37:01.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "EventApp\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Controllers\\UserController.cs",
+              "RelativeToolTip": "EventApp\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAQwGgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T23:52:35.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Views\\User\\Register.cshtml",
+              "RelativeDocumentMoniker": "EventApp\\Views\\User\\Register.cshtml",
+              "ToolTip": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Views\\User\\Register.cshtml",
+              "RelativeToolTip": "EventApp\\Views\\User\\Register.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAADMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T12:04:50.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Organizer.cs",
+              "DocumentMoniker": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Models\\Organizer.cs",
+              "RelativeDocumentMoniker": "EventApp\\Models\\Organizer.cs",
+              "ToolTip": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Models\\Organizer.cs",
+              "RelativeToolTip": "EventApp\\Models\\Organizer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T00:41:02.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Views\\User\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "EventApp\\Views\\User\\ChangePassword.cshtml",
+              "ToolTip": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Views\\User\\ChangePassword.cshtml",
+              "RelativeToolTip": "EventApp\\Views\\User\\ChangePassword.cshtml",
+              "ViewState": "AQIAABMAAAAAAAAAAADwvyAAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T00:18:26.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Views\\Sport\\Index.cshtml",
+              "RelativeDocumentMoniker": "EventApp\\Views\\Sport\\Index.cshtml",
+              "ToolTip": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Views\\Sport\\Index.cshtml",
+              "RelativeToolTip": "EventApp\\Views\\Sport\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAACFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T19:12:16.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Views\\Organizer\\Delete.cshtml",
+              "RelativeDocumentMoniker": "EventApp\\Views\\Organizer\\Delete.cshtml",
+              "ToolTip": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Views\\Organizer\\Delete.cshtml",
+              "RelativeToolTip": "EventApp\\Views\\Organizer\\Delete.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T18:45:01.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Program.cs",
+              "RelativeDocumentMoniker": "EventApp\\Program.cs",
+              "ToolTip": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Program.cs",
+              "RelativeToolTip": "EventApp\\Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABoAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T09:25:46.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SportController.cs",
+              "DocumentMoniker": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Controllers\\SportController.cs",
+              "RelativeDocumentMoniker": "EventApp\\Controllers\\SportController.cs",
+              "ToolTip": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Controllers\\SportController.cs",
+              "RelativeToolTip": "EventApp\\Controllers\\SportController.cs",
+              "ViewState": "AQIAAKMAAAAAAAAAAAAqwK4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T18:54:14.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "EventApp\\Views\\User\\Login.cshtml",
+              "ToolTip": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "EventApp\\Views\\User\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T12:04:00.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Views\\Organizer\\Edit.cshtml",
+              "RelativeDocumentMoniker": "EventApp\\Views\\Organizer\\Edit.cshtml",
+              "ToolTip": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Views\\Organizer\\Edit.cshtml",
+              "RelativeToolTip": "EventApp\\Views\\Organizer\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T18:37:46.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Event.cs",
+              "DocumentMoniker": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "EventApp\\Models\\Event.cs",
+              "ToolTip": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Models\\Event.cs",
+              "RelativeToolTip": "EventApp\\Models\\Event.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAvwCcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T19:08:45.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Views\\Sport\\Details.cshtml",
+              "RelativeDocumentMoniker": "EventApp\\Views\\Sport\\Details.cshtml",
+              "ToolTip": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Views\\Sport\\Details.cshtml",
+              "RelativeToolTip": "EventApp\\Views\\Sport\\Details.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACcAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T23:10:14.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Views\\Sport\\Edit.cshtml",
+              "RelativeDocumentMoniker": "EventApp\\Views\\Sport\\Edit.cshtml",
+              "ToolTip": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Views\\Sport\\Edit.cshtml",
+              "RelativeToolTip": "EventApp\\Views\\Sport\\Edit.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAC8AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T23:36:35.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "EventApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "EventApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAswB0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T09:29:09.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Views\\Sport\\Delete.cshtml",
+              "RelativeDocumentMoniker": "EventApp\\Views\\Sport\\Delete.cshtml",
+              "ToolTip": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Views\\Sport\\Delete.cshtml",
+              "RelativeToolTip": "EventApp\\Views\\Sport\\Delete.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAC4AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T23:44:50.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IndexEventViewModel.cs",
+              "DocumentMoniker": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Models\\IndexEventViewModel.cs",
+              "RelativeDocumentMoniker": "EventApp\\Models\\IndexEventViewModel.cs",
+              "ToolTip": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Models\\IndexEventViewModel.cs",
+              "RelativeToolTip": "EventApp\\Models\\IndexEventViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T19:10:39.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IndexOrganizerViewModel.cs",
+              "DocumentMoniker": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Models\\IndexOrganizerViewModel.cs",
+              "RelativeDocumentMoniker": "EventApp\\Models\\IndexOrganizerViewModel.cs",
+              "ToolTip": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Models\\IndexOrganizerViewModel.cs",
+              "RelativeToolTip": "EventApp\\Models\\IndexOrganizerViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T16:33:24.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Views\\Organizer\\Details.cshtml",
+              "RelativeDocumentMoniker": "EventApp\\Views\\Organizer\\Details.cshtml",
+              "ToolTip": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Views\\Organizer\\Details.cshtml",
+              "RelativeToolTip": "EventApp\\Views\\Organizer\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T16:54:37.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "EventApp\\Models\\LoginViewModel.cs",
+              "ToolTip": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "EventApp\\Models\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T12:49:59.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CreateOrganizerViewModel.cs",
+              "DocumentMoniker": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Models\\CreateOrganizerViewModel.cs",
+              "RelativeDocumentMoniker": "EventApp\\Models\\CreateOrganizerViewModel.cs",
+              "ToolTip": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Models\\CreateOrganizerViewModel.cs",
+              "RelativeToolTip": "EventApp\\Models\\CreateOrganizerViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T18:20:04.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Pagination.cs",
+              "DocumentMoniker": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Models\\Pagination.cs",
+              "RelativeDocumentMoniker": "EventApp\\Models\\Pagination.cs",
+              "ToolTip": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Models\\Pagination.cs",
+              "RelativeToolTip": "EventApp\\Models\\Pagination.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA5wAQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T16:19:11.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "bootstrap.css",
+              "DocumentMoniker": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeDocumentMoniker": "EventApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ToolTip": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeToolTip": "EventApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ViewState": "AQIAAEICAAAAAAAAAAAgwFMCAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-05T16:48:56.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Errors.cs",
+              "DocumentMoniker": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Models\\Errors.cs",
+              "RelativeDocumentMoniker": "EventApp\\Models\\Errors.cs",
+              "ToolTip": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Models\\Errors.cs",
+              "RelativeToolTip": "EventApp\\Models\\Errors.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T11:52:28.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MyController.cs",
+              "DocumentMoniker": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\MyController.cs",
+              "RelativeDocumentMoniker": "EventApp\\MyController.cs",
+              "ToolTip": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\MyController.cs",
+              "RelativeToolTip": "EventApp\\MyController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T15:22:12.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "EventApp\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "EventApp\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T15:20:27.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "EventApp\\Models\\RegisterViewModel.cs",
+              "ToolTip": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "EventApp\\Models\\RegisterViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T11:38:11.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "EventApp\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "EventApp\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T09:29:34.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\appsettings.json",
+              "RelativeDocumentMoniker": "EventApp\\appsettings.json",
+              "ToolTip": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\appsettings.json",
+              "RelativeToolTip": "EventApp\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-05T09:28:49.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\AppSettings.cs",
+              "RelativeDocumentMoniker": "EventApp\\AppSettings.cs",
+              "ToolTip": "D:\\Works\\Learn_Repos\\EventApp\\EventApp\\AppSettings.cs",
+              "RelativeToolTip": "EventApp\\AppSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T09:27:57.28Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

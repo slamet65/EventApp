@@ -1,0 +1,89 @@
+﻿@model EventApp.Models.EditEvent
+
+@{
+    ViewData["Title"] = "Edit";
+    ApiError detail = new ApiError();
+    if (TempData["error"] != null)
+    {
+        detail = (ApiError)TempData["error"];
+    }
+}
+
+<h1>Edit</h1>
+
+<h4>Event</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="form-control" disabled="disabled" />
+            </div>
+            <div class="form-group">
+                <label asp-for="EventType" class="control-label"></label>
+                <input asp-for="EventType" class="form-control" />
+                <span asp-validation-for="EventType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EventName" class="control-label"></label>
+                <input asp-for="EventName" class="form-control" />
+                <span asp-validation-for="EventName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EventDate" class="control-label"></label>
+                <input asp-for="EventDate" class="form-control" />
+                <span asp-validation-for="EventDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OrganizerId" class="control-label"></label>
+                <input asp-for="OrganizerId" class="form-control" />
+                <span asp-validation-for="OrganizerId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label for="organizer">Organizer:</label>
+                <select id="organizer" name="organizerId" asp-for="OrganizerId" asp-items="@(new SelectList(Model.ReffOrganizer, "Id", "OrganizerName"))">
+                    <option value="0">All</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+            @if (detail.error != null)
+            {
+                <div class="text-danger">
+                    <label>@detail.error</label>
+                </div>
+            }
+            @if (detail.errors != null)
+            {
+                <div class="text-danger">
+                    <label>@detail.message</label>
+                    <ul>
+                        @foreach (var item in detail.errors)
+                        {
+                            <li>
+                                @item.Key :
+                                <ul>
+                                    @foreach (var sub in item.Value)
+                                    {
+                                        <li>@sub</li>
+                                    }
+                                </ul>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            }
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

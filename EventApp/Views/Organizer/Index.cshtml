@@ -1,0 +1,67 @@
+﻿@using EventApp.Models
+@model IndexOrganizerViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                ID
+            </th>
+            <th>
+                Organizer Name
+            </th>
+            <th>
+                Image
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Data)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OrganizerName)
+                </td>
+                <td>
+                    <img class="img-thumbnail" height="20px" src="@Html.DisplayFor(modelItem => item.ImageLocation )" alt="@Html.DisplayFor(modelItem => item.OrganizerName )" />
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    Page @(Model.Meta.Pagination.CurrentPage) of @(Model.Meta.Pagination.TotalPages)
+</div>
+<div>
+    @for (int i = 1; i <= Model.Meta.Pagination.TotalPages; i++)
+    {
+        if (Model.Meta.Pagination.CurrentPage == i)
+        {
+            <label>@i.ToString()</label>
+        }
+        else
+        {
+            @Html.ActionLink(i.ToString(), "Index", new { page = i });
+        }
+        <label>|</label>
+    }
+</div>

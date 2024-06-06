@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "Register";
+    ApiError detail = new ApiError();
+    if (TempData["error"] != null)
+    {
+        detail = (ApiError)TempData["error"];
+    }
+}
+<div class="container">
+    <h2>Register</h2>
+    <form asp-action="Register" role="form">
+        <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input type="text" class="form-control" id="firstName" name="firstName" required />
+        </div>
+        <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input type="text" class="form-control" id="lastName" name="lastName" required />
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="password" name="password" required />
+        </div>
+        <div class="form-group">
+            <label for="repeatPassword">Repeat Password</label>
+            <input type="password" class="form-control" id="repeatPassword" name="repeatPassword" required />
+        </div>
+        <button type="submit" class="btn btn-primary">Register</button>
+        @if (detail.errors != null)
+        {
+            <div class="text-danger">
+                <label>@detail.message</label>
+                <ul>
+                    @foreach (var item in detail.errors)
+                    {
+                        <li>
+                            @item.Key :
+                            <ul>
+                                @foreach (var sub in item.Value)
+                                {
+                                    <li>@sub</li>
+                                }
+                            </ul>
+                        </li>
+                    }
+                </ul>
+            </div>
+        }
+    </form>
+</div>

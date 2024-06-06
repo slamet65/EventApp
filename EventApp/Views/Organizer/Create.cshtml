@@ -1,0 +1,69 @@
+﻿@model EventApp.Models.CreateOrganizerViewModel
+
+@{
+    ViewData["Title"] = "Create";
+    ApiError detail = new ApiError();
+    if (TempData["error"] != null)
+    {
+        detail = (ApiError)TempData["error"];
+    }
+}
+
+<h1>Create</h1>
+
+<h4>Organizer</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="OrganizerName" class="control-label"></label>
+                <input asp-for="OrganizerName" class="form-control" />
+                <span asp-validation-for="OrganizerName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImageLocation" class="control-label"></label>
+                <input asp-for="ImageLocation" class="form-control" />
+                <span asp-validation-for="ImageLocation" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+            @if (detail.error != null)
+            {
+                <div class="text-danger">
+                    <label>@detail.error</label>
+                </div>
+            }
+            @if (detail.errors != null)
+            {
+                <div class="text-danger">
+                    <label>@detail.message</label>
+                    <ul>
+                        @foreach (var item in detail.errors)
+                        {
+                            <li>
+                                @item.Key :
+                                <ul>
+                                    @foreach (var sub in item.Value)
+                                    {
+                                        <li>@sub</li>
+                                    }
+                                </ul>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            }
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

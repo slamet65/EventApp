@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Login";
+    ApiError detail = new ApiError();
+    if (TempData["error"] != null)
+    {
+        detail = (ApiError)TempData["error"];
+    }
+}
+<div class="container">
+    <h2>Login</h2>
+    <form asp-action="Login" role="form">
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" class="form-control" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="password" name="password" required />
+        </div>
+        <button type="submit" class="btn btn-primary">Login</button>
+        <a class="btn btn-secondary" asp-controller="User" asp-action="Register">Register</a>
+        @if (detail.error != null)
+        {
+            <div class="text-danger">
+                <label>@detail.error</label>
+            </div>
+        }
+        @if (detail.errors != null)
+        {
+            <div class="text-danger">
+                <label>@detail.message</label>
+                <ul>
+                    @foreach (var item in detail.errors)
+                    {
+                        <li>
+                            @item.Key :
+                            <ul>
+                                @foreach (var sub in item.Value)
+                                {
+                                    <li>@sub</li>
+                                }
+                            </ul>
+                        </li>
+                    }
+                </ul>
+            </div>
+        }
+    </form>
+</div>
